@@ -2,17 +2,22 @@
 
 # Day 01
 
-- coin flip
-- dice
-- distributions: Beta, Binomial
 - Notebook Polling
+- coin flip
+- dice notebook based on
+- distributions: Beta, Binomial
+- dirichlet,
+- Multinomial
 
 
 # Day 02
-- ozone.py
-- iris.py
-- linear regression
-- TD: Grades
+- TD: Grades based on https://towardsdatascience.com/bayesian-linear-regression-in-python-using-machine-learning-to-predict-student-grades-part-2-b72059a8ac7e
+https://github.com/WillKoehrsen/Data-Analysis/blob/master/bayesian_lr/Bayesian%20Linear%20Regression%20Project.ipynb
+- Why MC converge to posteriori distribution
+- GLM
+
+
+
 
 # Day 03
 - ab testing simple

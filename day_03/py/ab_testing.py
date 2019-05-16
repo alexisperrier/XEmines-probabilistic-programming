@@ -185,9 +185,9 @@ if __name__ == '__main__':
         inv_root_sample = pm.Uniform('inv_root_sample', 0, 1)
         a = pm.Deterministic('a', (ratio/inv_root_sample**2))
         b = pm.Deterministic('b', (1 - ratio)/(inv_root_sample**2))
-        theta   = pm.Beta('theta', a, b, shape = df.shape[0])
-        posterior     = pm.Binomial('posterior', p=theta, n=df.impressions, observed=df.clicks)
-        trace   = pm.sample(100000, step = pm.Metropolis() )
+        theta       = pm.Beta('theta', a, b, shape = df.shape[0])
+        posterior   = pm.Binomial('posterior', p=theta, n=df.impressions, observed=df.clicks)
+        trace       = pm.sample(100000, step = pm.Metropolis() )
 
 
     # another type of normalization
@@ -234,6 +234,8 @@ if __name__ == '__main__':
 
         obs = pm.Binomial('observed_values', trials, rates,
                           observed=successes)
+
+
 
 
 

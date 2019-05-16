@@ -16,9 +16,9 @@ https://papers.nips.cc/paper/6313-bayesian-intermittent-demand-forecasting-for-l
 
 # Bayesian Auto-Regressive Time Series Analysis in PYMC3
 http://barnesanalytics.com/bayesian-auto-regressive-time-series-analysis-pymc3
+Horsekick data
+modelisation AR1
 
-# Timeseries
-Algorithm Breakdown: AR, MA and ARIMA models
 
 # Stochastic volatility: Bayesian inference¶
 https://github.com/ChadFulton/tsa-notebooks/blob/master/stochastic_volatility_mcmc.ipynb

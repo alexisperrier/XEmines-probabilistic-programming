@@ -82,7 +82,6 @@ http://ai.orbifold.net/default/probabilistic-programming-applied-to-the-iris-set
 http://people.duke.edu/~ccc14/sta-663-bootstrap/PyMC3.html#simple-logistic-model
 
 
-
 # GLM
 https://docs.pymc.io/notebooks/getting_started#Generalized-Linear-Models
 

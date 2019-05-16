@@ -20,7 +20,7 @@ Proposals are always accepted
 Disadvantages of Gibbs sampling
 
 Need to be able to derive conditional probability distributions
-need to be able to draw random samples from contitional probability distributions
+need to be able to draw random samples from conditional probability distributions
 Can be very slow if paramters are correlated becauce you cannot take “diagonal” steps (draw picture to illustrate)
 
 
@@ -82,7 +82,7 @@ Etant donnée une serie temporelle, nous allons detecter si un changement de pha
 - the maximum a posteriori (MAP)
 - fonction de cout exotique, proprietaires et adaptées.
 
-TD: Appliquer les methodes sur les series temporelles de type demand planning, stock market, etc .... et a géneraliser a N le nombre de phases à detecter. Les etudiants presenteront en fin de journée leur resultats
+TD: Appliquer les methodes sur les series temporelles de type demand planning, stock market, etc .... et a géneraliser a N le nombre de phases à detecter.
 Posterior analysis
 
 datasets:
